@@ -62,4 +62,8 @@ To run
 
     [source] jupyter lab
 
+Write in a python notebook cell
+
+    from pycrop2ml_ui.model.MainMenu import main
+    main()
 
