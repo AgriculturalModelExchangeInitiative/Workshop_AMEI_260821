@@ -25,6 +25,11 @@ Install the different packages
 
     conda install -c conda-forge path.py six nbformat Cython nbsphinx networkx graphviz  pydot pyyaml unyt sphinx cookiecutter pytest
 
+
+If you haven't already installed git:
+
+    conda install -c conda-forge git
+
 To install in developer mode:
 
     git clone -b cymlt  https://github.com/cyrillemidingoyi/PyCropML.git
@@ -49,7 +54,7 @@ With **conda**:
 
 To install in developer mode
 
-    git clone -b cymlt  https://github.com/cyrillemidingoyi/Pycrop2ml_ui.git
+    git clone https://github.com/AgriculturalModelExchangeInitiative/Pycrop2ml_ui.git
     cd Pycrop2ml_ui
     python setup.py develop
 
