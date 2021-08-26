@@ -32,7 +32,7 @@ If you haven't already installed git:
 
 To install in developer mode:
 
-    git clone -b cymlt  https://github.com/cyrillemidingoyi/PyCropML.git
+    git clone -b cymlt  https://github.com/AgriculturalModelExchangeInitiative/PyCropML.git
     cd PyCropML
     python setup.py install
 
