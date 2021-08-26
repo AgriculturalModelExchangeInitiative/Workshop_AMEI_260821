@@ -56,7 +56,7 @@ To install in developer mode
 
     git clone https://github.com/AgriculturalModelExchangeInitiative/Pycrop2ml_ui.git
     cd Pycrop2ml_ui
-    python setup.py develop
+    python setup.py install
 
 To run 
 
