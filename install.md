@@ -19,7 +19,7 @@ Create an environment named *amei_26_08_21*:
 
 Activate the *amei_26_08_21* environment:
 
-    [source] activate amei_26_08_21
+    conda activate amei_26_08_21
 
 Install the different packages
 
@@ -34,7 +34,7 @@ To install in developer mode:
 
     git clone -b cymlt  https://github.com/cyrillemidingoyi/PyCropML.git
     cd PyCropML
-    python setup.py develop
+    python setup.py install
 
 
 ## Installation of Pycrop2ML_UI
