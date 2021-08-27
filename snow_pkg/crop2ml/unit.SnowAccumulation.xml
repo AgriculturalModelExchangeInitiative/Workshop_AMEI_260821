@@ -5,14 +5,14 @@
 		<Title>snowfall accumulation  calculation</Title>
 		<Authors>STICS</Authors>
 		<Institution>INRA</Institution>
-		<Reference>-</Reference>
-		<Abstract>-</Abstract>
+		<Reference>doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002</Reference>
+		<Abstract>It simulates the depth of snow cover and recalculate weather data</Abstract>
 	</Description>
 	<Inputs>
 		<Input name="tsmax" description="maximum daily air temperature (tmax) below which all precipitation is assumed to be snow" inputtype="parameter" parametercategory="constant" datatype="DOUBLE" default="0.0" min="0.0" max="1000" unit="degC" uri=""/>
 		<Input name="tmax" description="current maximum air temperature" inputtype="variable" variablecategory="auxiliary" datatype="DOUBLE" default="0.0" min="0.0" max="5000.0" unit="degC" uri=""/>
 		<Input name="trmax" description="tmax above which all precipitation is assumed to be rain" inputtype="parameter" parametercategory="constant" datatype="DOUBLE" default="0.0" min="0.0" max="5000.0" unit="degC" uri=""/>
-		<Input name="precip" description="recalculated precipitation" inputtype="variable" variablecategory="auxiliary" datatype="DOUBLE" default="0.0" min="0.0" max="5000.0" unit="mmW" uri=""/>
+		<Input name="precip" description="current precipitation" inputtype="variable" variablecategory="auxiliary" datatype="DOUBLE" default="0.0" min="0.0" max="5000.0" unit="mmW" uri=""/>
 
 	</Inputs>
 	<Outputs>

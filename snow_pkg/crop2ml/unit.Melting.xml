@@ -5,8 +5,8 @@
 		<Title>snow in the process of melting</Title>
 		<Authors>STICS</Authors>
 		<Institution>INRA</Institution>
-		<Reference>-</Reference>
-		<Abstract>-</Abstract>
+		<Reference>doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002</Reference>
+		<Abstract>It simulates snow in the process of melting</Abstract>
 	</Description>
 	<Inputs>
 		<Input name="jul" description="current day of year for the calculation" inputtype="variable" variablecategory="auxiliary" datatype="INT" default="0" min="0" max="366" unit="d" uri=""/>

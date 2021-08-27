@@ -5,8 +5,8 @@
 		<Title>water in liquid state in the snow cover calculation</Title>
 		<Authors>STICS</Authors>
 		<Institution>INRA</Institution>
-		<Reference>-</Reference>
-		<Abstract>-</Abstract>
+		<Reference>doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002</Reference>
+		<Abstract>water in liquid state in the snow cover</Abstract>
 	</Description>
 	<Inputs>
 		<Input name="Swet_t1" description="water in liquid state in the snow cover in previous day" inputtype="variable" variablecategory="state" datatype="DOUBLE" default="0.0" min="0.0" max="100.0" unit="mmW" uri=""/>
