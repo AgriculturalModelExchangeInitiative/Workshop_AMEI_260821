@@ -9,7 +9,7 @@ If you have not yet installed conda on your computer, follow these instructions:
 
 [Conda Installation](https://conda.io/docs/user-guide/install/index.html). Follow instructions for Miniconda.
 
-[Conda Download](https://conda.io/miniconda.html). Use the Python 3.7 based installation.
+[Conda Download](https://conda.io/miniconda.html). Use Python 3.7 based installation.
 
 #### Windows, Linux, Mac
 
@@ -63,7 +63,7 @@ To run (from the repository where you would like to create your package or a rep
     [source] cd ..
     [source] jupyter lab
 
-Write in a python notebook cell 
+Open a notebook using Python3 kernel and copy in a cell 
     
     from pycrop2ml_ui.model.MainMenu import main
     main()
