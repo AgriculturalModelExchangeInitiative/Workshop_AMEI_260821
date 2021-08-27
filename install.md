@@ -58,12 +58,13 @@ To install in developer mode
     cd Pycrop2ml_ui
     python setup.py develop
 
-To run 
+To run (from the repository where you would like to create your package or a repository that contains it)
 
+    [source] cd ..
     [source] jupyter lab
 
-Write in a python notebook cell
-
+Write in a python notebook cell 
+    
     from pycrop2ml_ui.model.MainMenu import main
     main()
 
