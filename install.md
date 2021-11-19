@@ -23,7 +23,7 @@ Activate the *amei_26_08_21* environment:
 
 Install the different packages
 
-    conda install -c conda-forge path.py six nbformat Cython nbsphinx networkx graphviz  pydot pyyaml unyt sphinx cookiecutter pytest
+    conda install -c conda-forge path.py six nbformat Cython nbsphinx networkx graphviz  pydot pyyaml unyt sphinx cookiecutter pytest antlr4-python3-runtime
 
 
 If you haven't already installed git:
