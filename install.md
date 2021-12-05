@@ -67,5 +67,5 @@ To run (from the repository where you would like to create your package or a rep
 Open a notebook using Python3 kernel and copy in a cell 
     
     from pycrop2ml_ui.model.MainMenu import main
-    main()
+    main(local=True)
 
