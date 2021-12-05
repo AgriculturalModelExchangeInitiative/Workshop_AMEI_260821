@@ -13,7 +13,7 @@ If you have not yet installed conda on your computer, follow these instructions:
 
 #### Windows, Linux, Mac
 
-Create an environment named *amei_26_08_21*:
+Create an environment named *amei_26_08_21* (use the name you want):
 
     conda create -n amei_26_08_21 python=3.7
 
@@ -30,9 +30,9 @@ If you haven't already installed git:
 
     conda install -c conda-forge git
 
-To install in developer mode:
+To install:
 
-    git clone -b cymlt  https://github.com/AgriculturalModelExchangeInitiative/PyCropML.git
+    git clone https://github.com/AgriculturalModelExchangeInitiative/PyCropML.git
     cd PyCropML
     python setup.py install
 
@@ -53,7 +53,7 @@ With **conda**:
     jupyter labextension install @jupyter-widgets/jupyterlab-manager@2
     jupyter labextension install qgrid2 
 
-To install in developer mode
+To install 
 
     git clone https://github.com/AgriculturalModelExchangeInitiative/Pycrop2ml_ui.git
     cd Pycrop2ml_ui
