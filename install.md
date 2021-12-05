@@ -45,7 +45,7 @@ With **conda**:
 ### Install jupyterlab, nodejs and qgrid
 
     [source] cd ..
-    conda install nodejs  jupyterlab=2 qgrid=1.3.1
+    conda install nodejs=16.12  jupyterlab=2 qgrid=1.3.1
     conda install -c conda-forge ipyfilechooser
 
 ### install Jupyterlab extensions
