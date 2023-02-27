@@ -23,8 +23,9 @@ Activate the *amei_26_08_21* environment:
 
 Install the different packages
 
-    conda install -c conda-forge path.py six nbformat Cython nbsphinx networkx graphviz  pydot pyyaml unyt sphinx cookiecutter pytest antlr4-python3-runtime
-
+    conda install -c conda-forge path.py six nbformat Cython nbsphinx networkx graphviz  pydot pyyaml unyt sphinx cookiecutter pytest antlr4-python3-runtime=4.8
+    
+    conda install -c openalea3 openala.core openalea.deploy
 
 If you haven't already installed git:
 
