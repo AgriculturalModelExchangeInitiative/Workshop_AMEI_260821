@@ -21,21 +21,27 @@ Activate the *amei_26_08_21* environment:
 
     conda activate amei_26_08_21
 
-Install the different packages
-
-    conda install -c conda-forge path.py six nbformat Cython nbsphinx networkx graphviz  pydot pyyaml unyt sphinx cookiecutter pytest antlr4-python3-runtime=4.8
-    
-    conda install -c openalea3 openala.core openalea.deploy
-
 If you haven't already installed git:
 
     conda install -c conda-forge git
 
-To install:
+Install the different packages
+
+    conda install -c conda-forge path.py six nbformat Cython nbsphinx networkx graphviz  pydot pyyaml unyt sphinx cookiecutter pytest antlr4-python3-runtime=4.8
+    
+    conda install -c openalea3 openalea.core openalea.deploy
+
+To install as user:
 
     git clone https://github.com/AgriculturalModelExchangeInitiative/PyCropML.git
     cd PyCropML
     python setup.py install
+
+To install as developer:
+
+    git clone https://github.com/AgriculturalModelExchangeInitiative/PyCropML.git
+    cd PyCropML
+    python setup.py develop
 
 
 ## Installation of Pycrop2ML_UI
